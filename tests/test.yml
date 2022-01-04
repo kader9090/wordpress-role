@@ -1,5 +1,6 @@
 ---
-- hosts: localhost
-  remote_user: root
+- name: "deploiement wordpress et mysql"
+  hosts: prod
+  become: true
   roles:
     - wordpress-role
