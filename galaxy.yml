@@ -1,0 +1,17 @@
+---
+namespace: community
+name: wordpress
+version: 1.0.0
+readme: README.md
+authors:
+  - Abdelkader
+description: Install wordpress et mysql with docker-container
+license_file: COPYING
+tags:
+  - v1
+repository: https://github.com/kader9090/wordpress-role.git
+documentation: https://github.com/kader9090/wordpress-role.git
+homepage: https://github.com/kader9090/wordpress-role.git
+issues: https://github.com/kader9090/wordpress-role.git
+build_ignore:
+  - .gitignore
